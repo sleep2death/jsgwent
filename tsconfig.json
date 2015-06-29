@@ -1,0 +1,22 @@
+{
+    "version": "1.5.0-alpha",
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false
+    },
+    "filesGlob": [
+        "./src/**/*.ts",
+        "./typings/phaser/phaser.d.ts",
+        "./typings/browserify/browserify.d.ts"
+    ],
+    "files": [
+        "./src/_references.ts",
+        "./src/jsgwent.ts",
+        "./typings/phaser/phaser.d.ts",
+        "./typings/browserify/browserify.d.ts"
+    ]
+}
